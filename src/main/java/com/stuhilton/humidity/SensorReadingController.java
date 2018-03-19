@@ -1,17 +1,17 @@
 package com.stuhilton.humidity;
 
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
+import static org.springframework.http.HttpStatus.CREATED;
 import static org.springframework.web.bind.annotation.RequestMethod.POST;
 
 @RestController
 public class SensorReadingController {
 
-    @RequestMapping(value = "/sensorReading", method = POST)
-    public SensorReading addSensorReading(@RequestBody SensorReading reading) {
-        return new SensorReading(0.00, null);
+    @RequestMapping(value = "/readings", method = POST)
+    public ResponseEntity addSensorReading(@RequestBody SensorReading reading) {
+        return new ResponseEntity(CREATED);
     }
 }
