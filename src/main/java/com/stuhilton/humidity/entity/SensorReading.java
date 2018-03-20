@@ -1,4 +1,4 @@
-package com.stuhilton.humidity;
+package com.stuhilton.humidity.entity;
 
 public class SensorReading {
 

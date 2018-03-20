@@ -1,4 +1,7 @@
-package com.stuhilton.humidity;
+package com.stuhilton.humidity.validation;
+
+import com.stuhilton.humidity.exception.InvalidArgumentException;
+import com.stuhilton.humidity.entity.SensorReading;
 
 public class SensorReadingValidator {
 

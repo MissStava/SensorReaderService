@@ -1,5 +1,7 @@
-package com.stuhilton.humidity;
+package com.stuhilton.humidity.controller;
 
+import com.stuhilton.humidity.entity.SensorReading;
+import com.stuhilton.humidity.service.SensorReadingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

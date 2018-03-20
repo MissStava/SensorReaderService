@@ -1,5 +1,7 @@
-package com.stuhilton.humidity;
+package com.stuhilton.humidity.service;
 
+
+import com.stuhilton.humidity.entity.SensorReading;
 
 public interface SensorReadingService {
 

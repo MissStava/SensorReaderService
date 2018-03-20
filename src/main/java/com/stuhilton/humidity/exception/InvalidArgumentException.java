@@ -1,4 +1,4 @@
-package com.stuhilton.humidity;
+package com.stuhilton.humidity.exception;
 
 import org.springframework.web.bind.annotation.ResponseStatus;
 
